@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    public GameObject tower;
    
         public Vector3 minScale = new Vector3(0.5f, 0.5f, 0.5f);
         public Vector3 maxScale = new Vector3(2.0f, 2.0f, 2.0f);
