@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             
         }
