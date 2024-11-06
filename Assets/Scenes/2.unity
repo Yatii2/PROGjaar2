@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11435bdce2ac25f4eb1e71f4aa1ed487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 5641919914683340233, guid: a7102acf2a55770499829470f3dfcfbf, type: 3}
+  towerPrefab: {fileID: 1430679139904728897, guid: 0cf96753bcc748f4195f639a87966633, type: 3}
   minPosition: {x: -5, y: 0, z: -5}
   maxPosition: {x: 5, y: 0, z: 5}
 --- !u!1 &1296764302
