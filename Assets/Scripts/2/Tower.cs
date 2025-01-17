@@ -17,6 +17,10 @@ public class Tower : MonoBehaviour
 
         transform.localScale = new Vector3(randomX, randomY, randomZ);
 
+        Vector3 newPos = transform.position;
+        newPos.y = (transform.localScale.y / 2);
+        transform.position = newPos;
+
     }
 
     // Update is called once per frame

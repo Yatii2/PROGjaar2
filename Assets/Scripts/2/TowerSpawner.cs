@@ -26,13 +26,20 @@ public class TowerSpawner : MonoBehaviour
     {
       
         float randomX = Random.Range(minPosition.x, maxPosition.x);
-        float randomY = Random.Range(minPosition.y, maxPosition.y);
+        //float randomY = Random.Range(minPosition.y, maxPosition.y);
         float randomZ = Random.Range(minPosition.z, maxPosition.z);
 
-        Vector3 randomPosition = new Vector3(randomX, randomY, randomZ);
+        Vector3 randomPosition = new Vector3(randomX, 0, randomZ);
 
-      
-        Instantiate(towerPrefab, randomPosition, Quaternion.identity);
+        
+
+
+        GameObject t = Instantiate(towerPrefab, randomPosition, Quaternion.identity);
+
+        float randomY = Random.Range(0.1f, 3f);
+
+        t.transform.localScale = new Vector3(1,randomY,1);
+
     }
 }
 
